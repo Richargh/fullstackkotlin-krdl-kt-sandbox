@@ -23,17 +23,19 @@ dependencies {
 
 task assembleWeb(type: Sync) {
     configurations.compile.each { File file ->
+        println("Print "+file)
         from(zipTree(file.absolutePath), {
             includeEmptyDirs = false
             include { fileTreeElement ->
                 def path = fileTreeElement.path
-                path.endsWith(".js") && (path.startsWith("META-INF/resources/") ||
+                println(path)
+                (path.endsWith("js") || path.endsWith(".html")) && (path.startsWith("META-INF/resources/") ||
                         !path.startsWith("META-INF/"))
             }
         })
     }
     from compileKotlin2Js.destinationDir
-    into "${projectDir}/web"
+    into "${projectDir}/web/gen"
 
     dependsOn classes
 }
