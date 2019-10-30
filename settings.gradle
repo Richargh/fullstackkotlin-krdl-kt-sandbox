@@ -1,0 +1,3 @@
+rootProject.name = 'react-ktjs'
+
+include 'api', 'backend', 'frontend'
