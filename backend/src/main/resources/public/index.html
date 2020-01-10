@@ -11,7 +11,28 @@
 <noscript>
     You need to enable JavaScript to run this app.
 </noscript>
-<div id="root"></div>
+<div id="root">
+    <form id="message-form" class="pure-form">
+        <fieldset>
+            <legend>Message form</legend>
+
+            <select id="user-select">
+                {{#users}}
+                <option value="{{login}}">{{firstname}} {{lastname}}</option>
+                {{/users}}
+            </select>
+
+            <input type="text" id="message-input" required placeholder="Message" />
+
+            <input type="button" id="submit-button" value="Send">
+
+        </fieldset>
+    </form>
+<p>
+<ul id="messages"></ul>
+</p>
+
+</div>
 
 <script>
     require(['reactkt-frontend']);

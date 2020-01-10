@@ -26,6 +26,8 @@ dependencies {
 	implementation(project(":api"))
 
 	implementation("io.javalin:javalin:3.6.0")
+	implementation("com.fasterxml.jackson.core:jackson-databind:2.10.0")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.10.0")
 	implementation("org.slf4j:slf4j-simple:1.8.0-beta4")
 	implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.6.12")
 
