@@ -1,7 +1,7 @@
-package messenger.backend
+package de.richargh.sandbox.reaktjs.backend
 
 import io.javalin.Javalin
-import messenger.shared.model.Message
+import de.richargh.sandbox.reaktjs.api.Message
 
 fun main(args: Array<String>) {
     val app = Javalin.create { config ->

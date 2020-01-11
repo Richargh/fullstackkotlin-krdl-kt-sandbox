@@ -1,4 +1,4 @@
-package messenger.shared.model
+package de.richargh.sandbox.reaktjs.api
 
 class Hello {
 

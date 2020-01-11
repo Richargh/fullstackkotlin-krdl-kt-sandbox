@@ -1,4 +1,4 @@
-package de.richargh.sandbox.reactkt
+package de.richargh.sandbox.reactkt.frontend
 
 //import kotlin.test.Test
 //import kotlin.test.assertEquals

@@ -1,7 +1,7 @@
-package de.richargh.sandbox.reactkt
+package de.richargh.sandbox.reactkt.frontend
 
-import messenger.shared.model.Hello
-import messenger.shared.model.Message
+import de.richargh.sandbox.reaktjs.api.Hello
+import de.richargh.sandbox.reaktjs.api.Message
 import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.HTMLSelectElement
 import org.w3c.fetch.RequestInit

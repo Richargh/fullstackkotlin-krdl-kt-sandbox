@@ -37,7 +37,7 @@ dependencies {
 }
 
 application {
-	mainClassName = "messenger.backend.MainKt"
+	mainClassName = "de.richargh.sandbox.reaktjs.backend.MainKt"
 }
 
 tasks.withType<Test> {

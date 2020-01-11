@@ -1,4 +1,4 @@
-package messenger.backend
+package de.richargh.sandbox.reaktjs.backend
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
