@@ -17,4 +17,4 @@ Start with `./gradlew clean backend:run` and navigate to localhost:7000
 
 == Karate
 
-More Karate examples can be found in their link:https://github.com/intuit/karate/tree/master/karate-demo[demo project].
+More Karate examples can be found in their link:https://intuit.github.io/karate/karate-demo/[demo project].

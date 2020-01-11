@@ -30,4 +30,6 @@ dependencies {
 	implementation(kotlin("stdlib-js"))
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.2")
 	implementation(project(":api"))
+
+	testImplementation(kotlin("test-js"))
 }
