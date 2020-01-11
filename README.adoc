@@ -11,9 +11,9 @@
 
 Start with `./gradlew clean backend:run` and navigate to localhost:7000
 
-== Inspiration
+== Kotlin Js / Fullstack
 
-* Heavily based on [Spring Messenger](https://github.com/sdeleuze/spring-messenger/blob/step-4-kotlin-js/frontend/build.gradle.kts)
+The best example I could find was the link:https://github.com/sdeleuze/spring-messenger/blob/step-4-kotlin-js/frontend/build.gradle.kts[Spring Messenger] which this project is heavily based on but there exists an official link:https://github.com/Kotlin/kotlin-fullstack-sample/blob/master/frontend/build.gradle[fullstack example] as well. Sadly that example uses the `org.jetbrains.kotlin.frontend` plugin which seems to have been link:https://github.com/Kotlin/kotlin-frontend-plugin/issues/151[deprecated] in favor of the `org.jetbrains.kotlin.js` plugin. The `js` plugin is also used by the link:https://github.com/Schahen/dukatGradleDemo[Dukat Gradle demo].
 
 == Karate
 

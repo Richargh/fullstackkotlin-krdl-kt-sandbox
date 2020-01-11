@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinJsDce
 
 plugins {
-	id("org.jetbrains.kotlin.js")
+	kotlin("js") version "1.3.50"
 }
 
 apply(plugin = "kotlin-dce-js")
@@ -23,13 +23,24 @@ kotlin {
 				dependsOn(runDceKotlin)
 			}
 		}
+
+		sourceSets["main"].dependencies {
+			/** Npm Main Dependencies **/
+//			implementation(npm("react", "16.8.3"))
+		}
 	}
 }
 
 dependencies {
+	/** Language dependencies **/
 	implementation(kotlin("stdlib-js"))
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.2")
+
+	/** Project dependencies **/
 	implementation(project(":api"))
 
+	/** Main dependencies **/
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.2")
+
+	/** Test dependencies **/
 	testImplementation(kotlin("test-js"))
 }
