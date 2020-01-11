@@ -33,6 +33,8 @@ dependencies {
 
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.3.1")
 	testImplementation("org.assertj:assertj-core:3.11.1")
+	testImplementation("com.intuit.karate:karate-junit5:0.9.4")
+	testImplementation("com.intuit.karate:karate-apache:0.9.4")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.3.1")
 }
 

@@ -1,5 +1,12 @@
 = React with Kotlin
 
+*Features*:
+
+* Kotlin Multiplatform Project
+* Frontend=Kotlin, Backend=Kotlin, Shared Api=Kotlin
+* Javalin
+* Karate Testing
+
 == Usage
 
 Start with `./gradlew clean backend:run` and navigate to localhost:7000
@@ -7,3 +14,7 @@ Start with `./gradlew clean backend:run` and navigate to localhost:7000
 == Inspiration
 
 * Heavily based on [Spring Messenger](https://github.com/sdeleuze/spring-messenger/blob/step-4-kotlin-js/frontend/build.gradle.kts)
+
+== Karate
+
+More Karate examples can be found in their link:https://github.com/intuit/karate/tree/master/karate-demo[demo project].
