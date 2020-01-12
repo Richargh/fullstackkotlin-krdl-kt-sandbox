@@ -1,4 +1,4 @@
-package de.richargh.sandbox.reaktjs.api
+package de.richargh.sandbox.fullstackkotlin.api
 
 class Hello {
 

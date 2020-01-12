@@ -1,6 +1,6 @@
-package de.richargh.sandbox.reactkt.frontend
+package de.richargh.sandbox.fullstackkotlin.frontend
 
-import de.richargh.sandbox.reaktjs.api.Hello
+import de.richargh.sandbox.fullstackkotlin.api.Hello
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

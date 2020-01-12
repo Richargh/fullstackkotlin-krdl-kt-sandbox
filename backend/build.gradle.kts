@@ -39,7 +39,7 @@ dependencies {
 }
 
 application {
-	mainClassName = "de.richargh.sandbox.reaktjs.backend.MainKt"
+	mainClassName = "de.richargh.sandbox.fullstackkotlin.backend.MainKt"
 }
 
 tasks.withType<Test> {

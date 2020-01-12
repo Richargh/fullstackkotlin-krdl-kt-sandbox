@@ -1,6 +1,6 @@
-package de.richargh.sandbox.reaktjs.backend
+package de.richargh.sandbox.fullstackkotlin.backend
 
-import de.richargh.sandbox.reaktjs.api.Message
+import de.richargh.sandbox.fullstackkotlin.api.Message
 import io.javalin.Javalin
 
 fun runApp(): Javalin {

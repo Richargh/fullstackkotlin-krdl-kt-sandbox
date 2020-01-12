@@ -1,9 +1,10 @@
-= React with Kotlin
+= Fullstack with Kotlin
 
 *Features*:
 
 * Kotlin Multiplatform Project
 * Frontend=Kotlin, Backend=Kotlin, Shared Api=Kotlin
+* Gradle Kotlin Dsl
 * Javalin
 * Karate Testing
 

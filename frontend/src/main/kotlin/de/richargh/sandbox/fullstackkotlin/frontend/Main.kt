@@ -1,7 +1,7 @@
-package de.richargh.sandbox.reactkt.frontend
+package de.richargh.sandbox.fullstackkotlin.frontend
 
-import de.richargh.sandbox.reaktjs.api.Hello
-import de.richargh.sandbox.reaktjs.api.Message
+import de.richargh.sandbox.fullstackkotlin.api.Hello
+import de.richargh.sandbox.fullstackkotlin.api.Message
 import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.HTMLSelectElement
 import org.w3c.fetch.RequestInit

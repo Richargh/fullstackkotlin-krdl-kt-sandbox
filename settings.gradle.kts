@@ -1,4 +1,4 @@
-rootProject.name = "reactkt"
+rootProject.name = "fullstackkotlin"
 
 include("backend", "frontend", "api")
 

@@ -1,4 +1,4 @@
-package de.richargh.sandbox.reactkt.frontend
+package de.richargh.sandbox.fullstackkotlin.frontend
 
 import org.w3c.dom.HTMLButtonElement
 import org.w3c.dom.HTMLDivElement

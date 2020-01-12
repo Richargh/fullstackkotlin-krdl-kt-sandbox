@@ -1,4 +1,4 @@
-package de.richargh.sandbox.reaktjs.backend
+package de.richargh.sandbox.fullstackkotlin.backend
 
 import com.intuit.karate.junit5.Karate
 import io.javalin.Javalin
