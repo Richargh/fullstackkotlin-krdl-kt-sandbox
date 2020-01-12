@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinJsDce
 
 plugins {
-	kotlin("js") version "1.3.50"
+	id("org.jetbrains.kotlin.js")
 }
 
 apply(plugin = "kotlin-dce-js")
@@ -12,22 +12,17 @@ repositories {
 
 kotlin {
 	target {
-		compilations.all {
-			kotlinOptions {
-				moduleKind = "umd"
-			}
-		}
 		browser {
 			webpackTask {
 				val runDceKotlin by tasks.getting(KotlinJsDce::class)
 				dependsOn(runDceKotlin)
 			}
 		}
+	}
 
-		sourceSets["main"].dependencies {
-			/** Npm Main Dependencies **/
-//			implementation(npm("react", "16.8.3"))
-		}
+	sourceSets["main"].dependencies {
+		/** Npm Main Dependencies **/
+		// none
 	}
 }
 
